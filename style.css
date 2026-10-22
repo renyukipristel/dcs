@@ -32,13 +32,13 @@
 
     .navbar {
       width: 100%;
-      min-height: 112px;
+      min-height: 88px;
       margin: 0 auto;
-      padding: 14px clamp(24px, 4vw, 56px);
+      padding: 8px clamp(24px, 4vw, 56px);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 36px;
+      gap: 28px;
     }
 
     .brand {
@@ -50,9 +50,9 @@
 
     .brand img {
       display: block;
-      width: 260px;
-      height: 96px;
-      max-height: 96px;
+      width: 230px;
+      height: 72px;
+      max-height: 72px;
       object-fit: contain;
       object-position: left center;
     }
@@ -173,8 +173,8 @@
     .hero .contact-button { margin-top: 26px; }
 
     @media (max-width: 900px) {
-      .navbar { min-height: 96px; padding: 12px 22px; }
-      .brand img { width: 200px; height: 74px; max-height: 74px; }
+      .navbar { min-height: 76px; padding: 8px 22px; }
+      .brand img { width: 180px; height: 60px; max-height: 60px; }
       .menu-toggle { display: block; margin-left: auto; }
       .nav-right {
         display: none;
@@ -197,6 +197,6 @@
     }
 
     @media (max-width: 420px) {
-      .brand img { width: 165px; height: 62px; max-height: 62px; }
+      .brand img { width: 150px; height: 52px; max-height: 52px; }
       .hero-content { padding: 28px 22px; }
     }
