@@ -50,9 +50,9 @@
 
     .brand img {
       display: block;
-      width: 220px;
-      height: 88px;
-      max-height: 88px;
+      width: 260px;
+      height: 96px;
+      max-height: 96px;
       object-fit: contain;
       object-position: left center;
     }
@@ -174,7 +174,7 @@
 
     @media (max-width: 900px) {
       .navbar { min-height: 96px; padding: 12px 22px; }
-      .brand img { width: 170px; height: 68px; max-height: 68px; }
+      .brand img { width: 200px; height: 74px; max-height: 74px; }
       .menu-toggle { display: block; margin-left: auto; }
       .nav-right {
         display: none;
@@ -197,6 +197,6 @@
     }
 
     @media (max-width: 420px) {
-      .brand img { width: 145px; height: 58px; max-height: 58px; }
+      .brand img { width: 165px; height: 62px; max-height: 62px; }
       .hero-content { padding: 28px 22px; }
     }
