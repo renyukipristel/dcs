@@ -23,20 +23,22 @@
       top: 0;
       z-index: 1000;
       width: 100%;
-      background: rgba(255, 255, 255, 0.97);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
       border-bottom: 1px solid #e8eee9;
       box-shadow: 0 4px 18px rgba(22, 53, 39, 0.04);
     }
 
     .navbar {
-      width: min(1200px, 100%);
-      min-height: 88px;
+      width: 100%;
+      min-height: 96px;
       margin: 0 auto;
-      padding: 14px 28px;
+      padding: 14px clamp(24px, 4vw, 56px);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 28px;
+      gap: 36px;
     }
 
     .brand {
@@ -48,9 +50,9 @@
 
     .brand img {
       display: block;
-      width: 112px;
+      width: 156px;
       height: auto;
-      max-height: 62px;
+      max-height: 72px;
       object-fit: contain;
       object-position: left center;
     }
@@ -66,7 +68,7 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 26px;
+      gap: 30px;
       margin: 0;
       padding: 0;
       list-style: none;
@@ -76,6 +78,7 @@
       color: #26342d;
       font-size: 14px;
       font-weight: 600;
+      letter-spacing: 0.01em;
       text-decoration: none;
       white-space: nowrap;
       transition: color 180ms ease;
@@ -92,7 +95,7 @@
       justify-content: center;
       min-height: 44px;
       padding: 0 20px;
-      border-radius: 7px;
+      border-radius: 9px;
       background: var(--primary);
       color: white;
       font-size: 14px;
@@ -170,8 +173,8 @@
     .hero .contact-button { margin-top: 26px; }
 
     @media (max-width: 900px) {
-      .navbar { min-height: 76px; padding: 12px 20px; }
-      .brand img { width: 98px; }
+      .navbar { min-height: 82px; padding: 12px 22px; }
+      .brand img { width: 122px; max-height: 60px; }
       .menu-toggle { display: block; margin-left: auto; }
       .nav-right {
         display: none;
@@ -194,6 +197,6 @@
     }
 
     @media (max-width: 420px) {
-      .brand img { width: 88px; }
+      .brand img { width: 104px; max-height: 54px; }
       .hero-content { padding: 28px 22px; }
     }
