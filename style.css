@@ -1,6 +1,6 @@
 :root {
-      --primary: #176b55;
-      --primary-dark: #105440;
+      --primary: #4A90E2;
+      --primary-dark: #1E5AA8;
       --text: #202923;
       --muted: #66736c;
       --surface: #ffffff;
@@ -86,7 +86,7 @@
 
     .nav-links a:hover,
     .nav-links a:focus-visible {
-      color: var(--primary);
+      color: #78B8FF;
     }
 
     .contact-button {
@@ -102,7 +102,7 @@
       font-weight: 700;
       text-decoration: none;
       white-space: nowrap;
-      box-shadow: 0 5px 12px rgba(23, 107, 85, 0.15);
+      box-shadow: 0 5px 12px rgba(74, 144, 226, 0.22);
       transition: background 180ms ease, transform 180ms ease;
     }
 
