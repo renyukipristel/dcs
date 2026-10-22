@@ -32,7 +32,7 @@
 
     .navbar {
       width: 100%;
-      min-height: 96px;
+      min-height: 112px;
       margin: 0 auto;
       padding: 14px clamp(24px, 4vw, 56px);
       display: flex;
@@ -50,9 +50,9 @@
 
     .brand img {
       display: block;
-      width: 156px;
-      height: auto;
-      max-height: 72px;
+      width: 220px;
+      height: 88px;
+      max-height: 88px;
       object-fit: contain;
       object-position: left center;
     }
@@ -173,8 +173,8 @@
     .hero .contact-button { margin-top: 26px; }
 
     @media (max-width: 900px) {
-      .navbar { min-height: 82px; padding: 12px 22px; }
-      .brand img { width: 122px; max-height: 60px; }
+      .navbar { min-height: 96px; padding: 12px 22px; }
+      .brand img { width: 170px; height: 68px; max-height: 68px; }
       .menu-toggle { display: block; margin-left: auto; }
       .nav-right {
         display: none;
@@ -197,6 +197,6 @@
     }
 
     @media (max-width: 420px) {
-      .brand img { width: 104px; max-height: 54px; }
+      .brand img { width: 145px; height: 58px; max-height: 58px; }
       .hero-content { padding: 28px 22px; }
     }
